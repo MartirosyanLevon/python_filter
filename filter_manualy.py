@@ -1,9 +1,3 @@
-def filter_manually(func, collection):
-    for e in collection:
-        if func(e):
-            yield e
-
-
 if __name__ == '__main__':
     VOVELS = {'a', 'e', 'o', 'u', 'y', 'i'}
 
